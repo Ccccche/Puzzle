@@ -6,9 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <JigsawPuzzle
+  imageSrc='https://github.com/Ccccche/Puzzle/blob/main/my-app/src/images/test.jpg'
+  rows={4}
+  columns={6}
+  onSolved={() => alert('Solved!')}
+/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,3 +26,4 @@ function App() {
 }
 
 export default App;
+
